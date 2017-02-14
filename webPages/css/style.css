@@ -1,0 +1,24 @@
+body {
+    background-image: url(../img/background.jpg)
+}
+
+h1 {
+    text-align: center;
+    color:floralwhite;
+}
+
+h2 {font-family: "Yu Gothic Medium", Times, serif;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div  {
+    color: floralwhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+td {
+    background-color: darkturquoise ;
+}
