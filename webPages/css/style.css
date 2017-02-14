@@ -19,6 +19,12 @@ div  {
     bottom: 0;
 }
 
-td {
+tr td {
     background-color: darkturquoise ;
+
+}
+
+tr td: hover { 
+    background-color: blue;
+
 }
