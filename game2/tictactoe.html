@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
+<!-- Here is where we put most of the stuff that can affect the body, and the whole html page in general. For example css and javascript. -->
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script style="text/javascript" src="js/javascript.js">
 </script>
 </head>
+<!-- Body - This contains the elements which will show in the page.-->
 <body>
 <div id="box">
 <h1> The </h1> <h2> Greatest </h2><h3> Tic - Tac- Toe!</h3>
-            <canvas id="canvas1" width="50" height="50" style="border:1px solid black" onclick="canvasClicked(1)"></canvas>
-            <canvas id = "canvas2"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(2)"></canvas>
-            <canvas id = "canvas3"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(3)"></canvas><br/>
-            <canvas id = "canvas4"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(4)"></canvas>
-            <canvas id = "canvas5"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(5)"></canvas>
-            <canvas id = "canvas6"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(6)"></canvas><br/>
-            <canvas id = "canvas7"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(7)"></canvas>
-            <canvas id = "canvas8"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(8)"></canvas>
-            <canvas id = "canvas9"  width="50" height="50" style="border:1px solid black" onclick="canvasClicked(9)"></canvas>
+            <!-- The HTML <canvas> element is used to draw graphics on a web page.-->
+            <!-- Id = is given so we can specify what we want        to do with this specified one.
+                 Width, height = Specifies the height and length.
+                 Style = Separate the style of the canvas from the homepage.
+                 Onclick = Activates a function that defines what happens when the canvas is clicked. -->
+            <canvas id="canvas1" width="50" height="50" style="border:1px solid white" onclick="canvasClicked(1)"></canvas>
+            <canvas id = "canvas2"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(2)"></canvas>
+            <canvas id = "canvas3"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(3)"></canvas><br/>
+            <canvas id = "canvas4"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(4)"></canvas>
+            <canvas id = "canvas5"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(5)"></canvas>
+            <canvas id = "canvas6"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(6)"></canvas><br/>
+            <canvas id = "canvas7"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(7)"></canvas>
+            <canvas id = "canvas8"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(8)"></canvas>
+            <canvas id = "canvas9"  width="50" height="50" style="border:1px solid white" onclick="canvasClicked(9)"></canvas>
 </div>
 </body>
 </html>
