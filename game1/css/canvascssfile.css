@@ -1,1 +1,5 @@
 canvas { background: #eee; }
+body {
+    text-align: center;
+    background-image:url(../img/background.jpg)
+}
