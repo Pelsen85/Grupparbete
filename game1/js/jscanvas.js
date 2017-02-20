@@ -1,4 +1,3 @@
-//
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
@@ -15,11 +14,11 @@ var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
-//dessa gör att man kan trycka på höger och vänster pilar.
+//dessa gör så att om man inte trycker på vänster eller högerpil så rör den sig inte.
 var brickRowCount = 5;
 var brickColumnCount = 3;
 var brickWidth = 75;
-//berättar hur bred brickorna är
+//berättar hur bred brickorna är och hur många per rad det skall vara
 var brickHeight = 20;
 //berättar hur hög brickorna ska vara
 var brickPadding = 10;
@@ -50,13 +49,13 @@ function keyDownHandler(e) {
     else if(e.keyCode == 37) {
         leftPressed = true;
     }
-    //samma sak här
+    //samma sak här fast vänster
 }
 function keyUpHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = false;
     }
-    //här är ett event, så den kommer säga till att man inte kan trycka på den knappen
+    //den här säger att man om man trycker uppåt så skall inget hända.
     else if(e.keyCode == 37) {
         leftPressed = false;
     }
