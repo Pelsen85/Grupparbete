@@ -137,7 +137,7 @@
             else{
                 
                 // This check that the canvas that is chosen is not already drawn
-                alert("THAT SPACE IS ALREADY OCCUPIED WITH YOUR HEART!");
+                alert("That space is already taken!");
 
             }
 
@@ -169,11 +169,11 @@ function checkForWinners(symbol){
 // This enables players to play again
 function playAgain(){
 
-            y=confirm("PLAY AGAIN?");
+            y=confirm("Play Again?");
 
             if(y==true){
 
-                alert("OKAY! ^^/>");
+                alert("Okay!Let's go!>");
 
                 location.reload(true);
 
@@ -181,7 +181,7 @@ function playAgain(){
 
             else{
 
-                alert("SO LONG,SUCKER!");
+                alert("Paa gensyn!");
 
         }
 
