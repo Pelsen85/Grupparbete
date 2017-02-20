@@ -4,7 +4,7 @@ body{
     background-image: url(../img/background.jpg)
 }
 
-/* This styles our boxes. The dot tells the css that somewhere in the html there is an id called "box"*/
+/* This styles the boxes. The dot tells the css that somewhere in the html there is an id called "box"*/
 .box{
     
     color: floralwhite;
