@@ -1,3 +1,4 @@
+// Function for Date //
 function date() {
       var currentDate = new Date(),
       day = currentDate.getDate(),
@@ -6,6 +7,7 @@ function date() {
   document.getElementById('date').innerHTML =day + "/" + month + "/" + year;
 }
 
+// Function for Time //
 function time() {
     	var currentTime = new Date(),
       hours = currentTime.getHours(),
