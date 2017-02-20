@@ -13,12 +13,6 @@ body{
     height:auto;
 }
 
-/* This styles the header3 */
-h3{
-    color: floralwhite;
-    position:relative;
-    -webkit-animation:h3Animation 5s;
-}
 
 /* This styles the header1 */
 h1{
@@ -34,6 +28,14 @@ h2{
     position:relative;
     -webkit-animation:h2Animation 5s;
 }
+
+/* This styles the header3 */
+h3{
+    color: floralwhite;
+    position:relative;
+    -webkit-animation:h3Animation 5s;
+}
+
 
 /* The name canvasAnimation is the name of the animation that the element will perform. 5s is how long the animation is */
 canvas{
